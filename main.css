@@ -3,37 +3,41 @@
          font-size: 25px;
          margin-right: 80px;}
         .h2{font-family: Arial, Helvetica, sans-serif;
-        font-size: 60px;
-        margin-top: 50px;}
+        font-size: 50px;
+        margin-top: 70px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;}
         .p1{font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        margin-top: 7px;
+        font-size: 15px;
         font-weight: normal;
         padding-left: 0%;
-        color:#000000 ;}
+        padding-top: 0%;
+        margin-top: 10px;
+        color:#494949 ;}
         .start{color: #fbfbfc;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #8c3cfc;
         border: 0;
-        border-radius: 6px;
-        padding: 9px;
-        font-size: 30px;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 20px;
         margin-left: 20px;
-        cursor: pointer;}
+        cursor: pointer;
+        font-weight: bold;}
         .explore{color: #8c3cfc;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #fbfbfc;
-        border: 2px solid;
+        border: 1.5px solid;
         border-color: #8c3cfc;
-        border-radius: 6px;
-        padding: 9px;
-        font-size: 30px;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 20px;
         margin-left: 15px;
-        cursor: pointer;}
+        cursor: pointer;
+         font-weight: bold;}
         .p2{font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
-        color: #575757;
-        margin-top: 35px;}
+        color: #e21b1b;}
         .a{margin-top: 45px;
         font-size: 25px;
         color: #2ea5f9;
@@ -41,8 +45,7 @@
         text-decoration: none;}
         .header{display: flex;
          align-items: center;
-        align-items: baseline;
-        border-bottom: 1.5px solid #807f7f;}
+        align-items: baseline;}
         .nav-link{display: flex;
         font-family: Arial, Helvetica, sans-serif;
         gap: 20px;
@@ -55,9 +58,9 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: #8c3cfc;
         border: 0;
-        border-radius: 6px;
-        padding: 9px;
-        font-size: 30px;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 20px;
         margin-left: 50px;
         cursor: pointer;}
         .click-here{display: flex;
@@ -69,4 +72,56 @@
         justify-content: center;
         align-items: center;
         margin-right: 40px;}
-        
+        .languages p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #575757;
+        text-align: center;
+        }
+        .languages-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;}
+        .features h4{ text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 0%;}
+        .features-p{font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #575757;
+        text-align: center;
+        margin-top: 5px;}
+        .features-list{display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;}
+        .feature-card h5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin: 0%;
+        } 
+        .feature-card p{ font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #575757;
+        margin: 0%;}
+        .feature-card{display: flex;
+        border: #dbdce0 solid 2px;
+        width: 27%;
+        border-radius: 10px;
+        padding: 20px;
+        flex-direction: column;
+        gap: 5px;
+        box-shadow:2px 4px 10px rgba(102, 102, 102, 0.07);
+        transition: border-color 0.6s ease, transform 0.6s ease;
+        }
+        .feature-card:hover{border-color: #8c3cfc;
+        transform: translateY(-10px);}
